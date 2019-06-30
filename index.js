@@ -16,7 +16,11 @@ if(katzDeliLine>0){
   let b = "";
     for (i=0,i<=katzDeliLine.length;i++){
       a = ` ${i+1}. ${katzDeliLine[i]}`
+      newArray.push(a)
     }
+  }
+  else{
+    return "The line is currently empty."
   }
 }
   
