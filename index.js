@@ -9,12 +9,12 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-let newArray=[]
+let newArray=[];
 if(katzDeliLine.length>0){
   let a = ""
   let i;
   let b = ""
-    for (i=0;i<katzDeliLine.length;i++){
+    for (i=0;i<katzDeliLine.length;i++);{
       a = ` ${i+1}. ${katzDeliLine[i]}`
       newArray.push(a)
       }
