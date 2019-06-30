@@ -26,4 +26,3 @@ if(katzDeliLine>0){
 }
   
   //return (katzDeliLine.length>0 ? `The line is currently: ${katzDeliLine}`: "The line is currently empty.")
-}
