@@ -9,5 +9,16 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  return (katzDeliLine.length>0 ? `The line is currently: ${katzDeliLine}`: "The line is currently empty.")
+let newArray=[];
+if(katzDeliLine>0){
+  let a = "";
+  let i;
+  let b = "";
+    for (i=0,i<=katzDeliLine.length;i++){
+      a = ` ${i+1}. ${katzDeliLine[i]}`
+    }
+  }
+}
+  
+  //return (katzDeliLine.length>0 ? `The line is currently: ${katzDeliLine}`: "The line is currently empty.")
 }
