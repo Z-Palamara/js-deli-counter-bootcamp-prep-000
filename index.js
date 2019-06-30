@@ -12,7 +12,7 @@ function currentLine(katzDeliLine){
 let newArray=[]
 if(katzDeliLine.length>0){
   let a = ""
-  let i
+  let i;
   let b = ""
     for (i=0;i<katzDeliLine.length;i++){
       a = ` ${i+1}. ${katzDeliLine[i]}`
@@ -24,5 +24,3 @@ if(katzDeliLine.length>0){
     return "The line is currently empty."
     }
 }
-  
-  //return (katzDeliLine.length>0 ? `The line is currently: ${katzDeliLine}`: "The line is currently empty.")
