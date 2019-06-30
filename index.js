@@ -9,13 +9,5 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  var i; 
-  for (i = 0, i<katzDeliLine.length; i++){
   return (katzDeliLine.length>0 ? `The line is currently: ${katzDeliLine}`: "The line is currently empty.")
-  }
-
-// You can write:
-// var i;
-// for (i = 0; i < cars.length; i++) { 
-//   text += cars[i] + "<br>";
-// }
+}
