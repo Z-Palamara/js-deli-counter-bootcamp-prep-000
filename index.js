@@ -17,13 +17,12 @@ if(katzDeliLine>0){
     for (i=0;i<=katzDeliLine.length;i++){
       a = ` ${i+1}. ${katzDeliLine[i]}`
       newArray.push(a)
-    }
-    
+      }
     b = "The line is currently:" + newArray
   }
   else{
     return "The line is currently empty."
-  }
+    }
 }
   
   //return (katzDeliLine.length>0 ? `The line is currently: ${katzDeliLine}`: "The line is currently empty.")
