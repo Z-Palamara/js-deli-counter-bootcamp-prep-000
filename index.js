@@ -18,7 +18,8 @@ if(katzDeliLine.length>0){
       a = ` ${i+1}. ${katzDeliLine[i]}`
       newArray.push(a)
       }
-    b = "The line is currently:" + newArray
+    b = "The line is currently:" + newArray;
+    return b
   }
   else{
     return "The line is currently empty."
