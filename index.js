@@ -10,7 +10,7 @@ function nowServing(katzDeliLine){
 
 function currentLine(katzDeliLine){
 let newArray=[]
-if(katzDeliLine>0){
+if(katzDeliLine.length>0){
   let a = ""
   let i
   let b = ""
